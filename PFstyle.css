@@ -7,7 +7,7 @@ body{background-color:#e6e6e6;}
 header{position:relative; height:70px; background-color:#fff; margin:0;}
 #headerimg{
 background:#333333;
-background-image:url(https://github.com/dlrkdals1215/dlrkdals1215.github.io/blob/master/%EC%84%B9%EC%85%98%201.jpg?raw=true);
+background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/%EC%84%B9%EC%85%98%201.jpg);
 height:500px;
 margin:0 auto;
 }
