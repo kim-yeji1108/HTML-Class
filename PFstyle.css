@@ -3,38 +3,21 @@
 @charset "UTF-8";
 #middle{max-width:1020px;margin:0 auto;}
 #title{float:left; margin:20px;}
-body{background-color:#e6e6e6;}
-header{position:relative; height:70px; background-color:#fff; margin:0 auto;}
+#c1{clear:both;}
 #headerimg{
 background:#333333;
-background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);
-height:500px;
-margin:0 auto;
-}
+background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);height:500px;margin:0 auto;}
+#text {width: 100%;float: center;margin: 0px 0px 30px 50px;color:#333333;}
 #artimg{background:#333333;background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/2.png);height:500px;margin:0 auto;}
 
 h2 {font-weight: 500;letter-spacing: .05em;color: #333333;font-style:normal;font-family: Verdana, 
-
-sans-serif;}
-#c1{clear:both;}
+body{background-color:#e6e6e6;}
+header{position:relative; height:70px; background-color:#fff; margin:0 auto; sans-serif;}
 nav{position:absolute; right:50px;top:20px;width:33%;}
 ul{list-style-type:none;}
 li{display:inline-block; width:30%; text-align:center; font-size:1.2em; line-height:1.5em; 
-
-color:#333333; letter-spacing:.01em; font-style:normal; font-weight:300; font-family:Verduna; sans-
-
-serif;}
+color:#333333; letter-spacing:.01em; font-style:normal; font-weight:300; font-family:Verduna; sans-serif;}
 a{text-decoration:none; color:#333333;}
 a:hover{text-decoration:none; color:#C43C3E;}
-article {
-background: #fff;
-height: 100%;
-margin: 0 auto;
-padding: 40px 0;
-}
-#text {
-width: 100%;
-float: center;
-margin: 0px 0px 30px 50px;
-color:#333333;
-}
+article {background: #fff;height: 100%;margin: 0 auto;padding: 40px 0;}
+
