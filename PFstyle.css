@@ -1,12 +1,41 @@
 /*PFstyle.css */
 
 @charset "UTF-8";
-#middle{max-width:1020px;margin:0 auto;}
-#title{float:left; margin:20px;}
-#c1{clear:both;}
-#headerimg{background:#333333;background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);height:500px;margin:0 auto;}
-#text {width: 100%;float: center;margin: 0px 0px 30px 50px;color:#333333;}
-#artimg{background:#333333;background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/2.png);height:500px;margin:0 auto;}
+#middle
+{
+  max-width:1020px;
+  margin:0 auto;
+}
+#title
+{
+  float:left;
+  margin:20px;
+}
+#c1
+{
+  clear:both;
+}
+#headerimg
+{
+  background:#333333;
+  background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);
+  height:500px;
+  margin:0 auto;
+}
+#text 
+{
+  width: 100%;
+  float: center;
+  margin: 0px 0px 30px 50px;
+  color:#333333;
+}
+#artimg
+{
+  background:#333333;
+  background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/2.png);
+  height:500px;
+  margin:0 auto;
+}
 
 h2 {font-weight: 500;letter-spacing: .05em;color: #333333;font-style:normal;font-family: Verdana, 
 body{background-color:#e6e6e6;}
