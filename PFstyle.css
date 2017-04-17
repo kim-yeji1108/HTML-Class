@@ -4,7 +4,7 @@
 #middle{max-width:1020px;margin:0 auto;}
 #title{float:left; margin:20px;}
 body{background-color:#e6e6e6;}
-header{position:relative; height:70px; background-color:#fff; margin:0;}
+header{position:relative; height:70px; background-color:#fff; margin:0 auto;}
 #headerimg{
 background:#333333;
 background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);
