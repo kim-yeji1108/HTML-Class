@@ -2,9 +2,15 @@
 
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {        /* tablet */
-    .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;font-size: "2";}    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}    .col-m-6 {width: 50%;}    .col-m-7 {width: 58.33%;}    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-12 {width: 100%;} }
+    .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;font-size: "2";}  
+
+  .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}    .col-m-6 {width: 50%;}    .col-m-7 {width: 58.33%;}    .col-m-8 
+
+{width: 66.66%;}
+    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-
+
+12 {width: 100%;} }
 @media only screen and (min-width: 768px) {        /* desktop */
 .col-1{ width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;} 
 .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;} 
@@ -13,33 +19,12 @@
 {
     max-width:960px;
     margin:0 auto;
-
 }
 #title
 {
     float:left; 
     margin:20px;
 
-}
-
-#artimg
-{   background:#333333;
-    background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/2.png);
-    height:500%;
-    margin:0 auto;}
-#stimg1
-{
-    background:#333333;
-    background-image:url(https://github.com/dlrkdals1215/dlrkdals1215.github.io/blob/master/14-1.PNG?raw=true);
-    height:500%;
-    margin:0 auto;
-}
-#stimg2
-{
-    background:#333333;
-    background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/14-2.PNG);
-    height:500%;
-    margin:0 auto;
 }
 #c
 {
@@ -123,9 +108,15 @@ footer {
   margin-top: -3em;
   padding: 8.75em 0 2em;
   height: 10vw;
-  background-image:-moz-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
-  background-image: -webkit-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
-  background-image: -ms-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+  background-image:-moz-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 
+
+100%);
+  background-image: -webkit-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 
+
+100%);
+  background-image: -ms-linear-gradient( -45deg, rgb(255,91,127) 0%, rgb(255,213,86) 
+
+100%);
 }
 .footer-content {
 	width: 64%;
