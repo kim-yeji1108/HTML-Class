@@ -13,23 +13,22 @@
     margin:20px;
 
 }
-#headerimg
+#c
 {
-    background:#333333;
-    background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/1.png);
-    height:500px;
-    margin:0 auto;
-
+    clear: both
 }
-#artimg
-{   background:#333333;
-    background-image:url(https://raw.githubusercontent.com/dlrkdals1215/dlrkdals1215.github.io/master/2.png);
-    height:500px;
-    margin:0 auto;}
 #c1
 {
     clear:both;
 
+}
+#c2
+{
+    clear:both;
+}
+#c3
+{
+    clear:both;
 }
 body
 {
