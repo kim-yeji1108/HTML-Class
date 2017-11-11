@@ -1,0 +1,45 @@
+#include <Servo.h>             // 서보모터 라이브러리 추가
+#include <SoftwareSerial.h>   // 블루투스 라이브러리 추가
+
+SoftwareSerial BTSerial(2,3); // 블루투스 연결(RX, TX)
+Servo servo_L;                   // Servo 클래스로 객체 생성
+Servo servo_R;
+int value = 0;                  // 각도를 조절할 변수 생성
+int a_flag=0;
+int buzzer=0;
+
+void setup() {
+  pinMode(11, INPUT_PULLUP);    // 13번 포트에 개목줄 연결, 버튼을 대체
+  pinMode(A5, OUTPUT);
+  digitalWrite(A5, HIGH);
+  servo_L.attach(7);            // 서보 모터 핀을 7,8번에 설정
+  servo_R.attach(8);
+  Serial.begin(9600);           // 속도 디폴트
+  BTSerial.begin(9600);         // 블루투스 속도 디폴트
+  servo_L.write(0);        // value 값의 각도로 회전
+   servo_R.write(0);
+}
+
+void loop() {
+  int collar = digitalRead(11);
+//  Serial.println(collar);
+  
+  if(collar == HIGH){           // 개 목줄이 끊어지면 
+    //value += 180;              // 서보모터를 180도 돌린다.
+
+   servo_L.write(90);        // value 값의 각도로 회전
+   servo_R.write(90);
+   a_flag=1;
+   Serial.println("Warning !!");
+   BTSerial.print("Warning !!");
+   digitalWrite(A5, LOW); delay(500);
+   digitalWrite(A5, HIGH); delay(500);
+  }
+
+  if(a_flag == 1){
+    servo_L.write(0);        // value 값의 각도로 회전
+   servo_R.write(0);
+   a_flag=0;
+  }
+
+}
